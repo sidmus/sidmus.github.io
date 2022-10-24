@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+<title>SIDMus</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="SIDMus" />
+<meta name="generator" content="VisualNEO Web (19.9.16)" />
+<meta name="date" content="2022-10-24 10:53" />
+<meta name="copyright" content="Copyright 2022 IoSoft Producciones" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/nzAnimate.min.css">
+<link rel="stylesheet" href="css/neoapp-ui.min.css">
+<link rel="stylesheet" href="css/bootstrap-table.min.css">
+<link rel="stylesheet" href="css/bootstrap-editable.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="ng-app" ng-app="NeoApp" ng-cloak>
+<div ng-controller="NeoApp_CoreCtrl" ng-view ng-cloak id="ng-view" class="app-viewport[NAB._pageEffect]"></div>
+<script type="text/ng-template" id="Inicio">
+<div id="Inicio">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<div id="Paragraph6" class="[NAB.Paragraph6_effect]" ng-style="NAB.Paragraph6_style" ng-hide="NAB.Paragraph6_hidden" ng-disabled="NAB.Paragraph6_disabled">Bienvenidos al Sistema Integrado <strong>SIDMus</strong>, especializado en documentación museográfica.<br><br>Utilice el MENÚ de opciones que aparecen en el margen izquierdo para comenzar a trabajar.<br><br>Si desea ver un catálogo de objetos de diferentes museos, use la opción <strong>Catálogo</strong>.<br><br><br></div>
+</div>
+</script>
+<script type="text/ng-template" id="Catalogo">
+<div id="Catalogo">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<select id="SelectorCategoria" ng-model="$root.CATEGORIA" class="[NAB.SelectorCategoria_effect]" ng-style="NAB.SelectorCategoria_style" ng-hide="NAB.SelectorCategoria_hidden" ng-disabled="NAB.SelectorCategoria_disabled" ng-change="SelectorCategoria_change()"><option style="display:none" value="">&nbsp;</option><option>Todas</option><option>Armas y armamentos</option><option>Mobiliario</option><option>Vestimentas</option><option>Arqueología (fósiles)</option><option>Etnografía (vasijas)</option><option>Orfebrería</option><option>Numismática y medallística</option><option>Liturgia (objetos religiosos)</option><option>Animales taxidermizados</option><option>Obras de arte</option><option>Fotografías</option><option>Agricultura</option><option>Ciencias naturales (fósiles&#44; moluscos&#44; minerales y rocas)</option><option>Otros</option></select>
+<div id="Paragraph1" class="[NAB.Paragraph1_effect]" ng-style="NAB.Paragraph1_style" ng-hide="NAB.Paragraph1_hidden" ng-disabled="NAB.Paragraph1_disabled">Seleccione una Categoría:</div>
+<div id="ficha" class="[NAB.ficha_effect]" ng-style="NAB.ficha_style" ng-hide="NAB.ficha_hidden" ng-disabled="NAB.ficha_disabled"><p><br><img align="right" src=http://drive.google.com/uc?export=view&id=[c184img] height="350" align="center">
+&nbsp;&nbsp;&nbsp;<b>Museo:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c04]<br>
+&nbsp;&nbsp;&nbsp;<b>Ubicación:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c05]<br>
+&nbsp;&nbsp;&nbsp;<b>Nº de inventario:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c02]<br>
+&nbsp;&nbsp;&nbsp;<b>Cateogoría/Clasificación:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c15]<br>
+&nbsp;&nbsp;&nbsp;<b>Denominación:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c10]<br>
+&nbsp;&nbsp;&nbsp;<b>Título:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c11]<br>
+&nbsp;&nbsp;&nbsp;<b>Descripción:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c14]<br>
+&nbsp;&nbsp;&nbsp;<b>Dimensiones:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c170]<br>
+&nbsp;&nbsp;&nbsp;<b>Referencias culturales/históricas:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c173]<br>
+&nbsp;&nbsp;&nbsp;<b>Fecha de ingreso:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[c06]<br>
+</p>
+</div>
+<ul id="Pager1" class="pager [NAB.Pager1_effect]" ng-style="NAB.Pager1_style" ng-hide="NAB.Pager1_hidden" ng-disabled="NAB.Pager1_disabled"><li ng-click="Pager1_prevclick()"><a href=""><span class="glyphicon glyphicon-arrow-left"></span></a></li><li ng-click="Pager1_nextclick()"><a href=""><span class="glyphicon glyphicon-arrow-right"></span></a></li></ul>
+<div id="Paragraph4" class="[NAB.Paragraph4_effect]" ng-style="NAB.Paragraph4_style" ng-hide="NAB.Paragraph4_hidden" ng-disabled="NAB.Paragraph4_disabled">[current] / [total]</div>
+</div>
+</script>
+<script type="text/ng-template" id="DocLogin">
+<div id="DocLogin">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<input id="TextInput4" type="text" class="form-control [NAB.TextInput4_effect]" ng-style="NAB.TextInput4_style" ng-hide="NAB.TextInput4_hidden" ng-disabled="NAB.TextInput4_disabled" ng-model="$root.sesion_clave">
+<button id="PushButton7" type="button"  class="btn btn-success btn-lg [NAB.PushButton7_effect]" ng-style="NAB.PushButton7_style" ng-hide="NAB.PushButton7_hidden" ng-disabled="NAB.PushButton7_disabled" ng-click="PushButton7_click()"><span class="glyphicon glyphicon-arrow-right"></span></button>
+<div id="Paragraph12" class="[NAB.Paragraph12_effect]" ng-style="NAB.Paragraph12_style" ng-hide="NAB.Paragraph12_hidden" ng-disabled="NAB.Paragraph12_disabled">Ingrese sus datos de registro:</div>
+<input id="TextInput1" type="text" class="form-control [NAB.TextInput1_effect]" ng-style="NAB.TextInput1_style" ng-hide="NAB.TextInput1_hidden" ng-disabled="NAB.TextInput1_disabled" ng-model="$root.sesion_usuario">
+<div id="Paragraph13" class="[NAB.Paragraph13_effect]" ng-style="NAB.Paragraph13_style" ng-hide="NAB.Paragraph13_hidden" ng-disabled="NAB.Paragraph13_disabled">Usuario:</div>
+<div id="Paragraph14" class="[NAB.Paragraph14_effect]" ng-style="NAB.Paragraph14_style" ng-hide="NAB.Paragraph14_hidden" ng-disabled="NAB.Paragraph14_disabled">Clave:</div>
+</div>
+</script>
+<script type="text/ng-template" id="Documentar">
+<div id="Documentar">
+<div id="Container4" class="[NAB.Container4_effect]" ng-style="NAB.Container4_style" ng-hide="NAB.Container4_hidden" ng-disabled="NAB.Container4_disabled">
+<button id="PushButton12" type="button"  class="btn btn-default [NAB.PushButton12_effect]" ng-style="NAB.PushButton12_style" ng-hide="NAB.PushButton12_hidden" ng-disabled="NAB.PushButton12_disabled" ng-click="PushButton12_click()"><span class="glyphicon glyphicon-print"></span> &nbsp;&nbsp;&nbsp;Imprimir</button>
+<button id="BtnCierreSesion" type="button"  class="btn btn-primary btn-lg [NAB.BtnCierreSesion_effect]" ng-style="NAB.BtnCierreSesion_style" ng-hide="NAB.BtnCierreSesion_hidden" ng-disabled="NAB.BtnCierreSesion_disabled" ng-click="BtnCierreSesion_click()"><span class="glyphicon glyphicon-share"></span><br/>Cerrar Sesión</button>
+<button id="PushButton15" type="button"  class="btn btn-success [NAB.PushButton15_effect]" ng-style="NAB.PushButton15_style" ng-hide="NAB.PushButton15_hidden" ng-disabled="NAB.PushButton15_disabled" ng-click="PushButton15_click()"><span class="glyphicon glyphicon-plus-sign"></span> &nbsp;&nbsp;&nbsp;<b>DOCUMENTAR</b></button>
+<button id="PushButton11" type="button"  class="btn btn-default [NAB.PushButton11_effect]" ng-style="NAB.PushButton11_style" ng-hide="NAB.PushButton11_hidden" ng-disabled="NAB.PushButton11_disabled" ng-click="PushButton11_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp;&nbsp;&nbsp;Reporte de Condición</button>
+<button id="PushButton9" type="button"  class="btn btn-default [NAB.PushButton9_effect]" ng-style="NAB.PushButton9_style" ng-hide="NAB.PushButton9_hidden" ng-disabled="NAB.PushButton9_disabled" ng-click="PushButton9_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp;&nbsp;&nbsp;Acta de Ingreso</button>
+<button id="PushButton14" type="button"  class="btn btn-default [NAB.PushButton14_effect]" ng-style="NAB.PushButton14_style" ng-hide="NAB.PushButton14_hidden" ng-disabled="NAB.PushButton14_disabled" ng-click="PushButton14_click()"><span class="glyphicon glyphicon-save"></span> &nbsp;&nbsp;&nbsp;Exportar <b>CSV</b></button>
+<button id="PushButton10" type="button"  class="btn btn-default [NAB.PushButton10_effect]" ng-style="NAB.PushButton10_style" ng-hide="NAB.PushButton10_hidden" ng-disabled="NAB.PushButton10_disabled" ng-click="PushButton10_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp;&nbsp;&nbsp;Acta de Baja</button>
+</div>
+<div id="DocContainer" class="[NAB.DocContainer_effect]" ng-style="NAB.DocContainer_style" ng-hide="NAB.DocContainer_hidden" ng-disabled="NAB.DocContainer_disabled"><p><br>
+&nbsp;&nbsp;&nbsp;<b>Museo:</b><br>
+&nbsp;&nbsp;&nbsp;[c04]<br>
+&nbsp;&nbsp;&nbsp;<b>Ubicación:</b><br>
+&nbsp;&nbsp;&nbsp;[c05]<br>
+&nbsp;&nbsp;&nbsp;<b>Nº de inventario:</b><br>
+&nbsp;&nbsp;&nbsp;[c02]<br>
+&nbsp;&nbsp;&nbsp;<b>Cateogoría/Clasificación:</b><br>
+&nbsp;&nbsp;&nbsp;[c15]<br>
+&nbsp;&nbsp;&nbsp;<b>Denominación:</b><br>
+&nbsp;&nbsp;&nbsp;[c10]<br>
+&nbsp;&nbsp;&nbsp;<b>Título:</b><br>
+&nbsp;&nbsp;&nbsp;[c11]<br>
+&nbsp;&nbsp;&nbsp;<b>Descripción:</b><br>
+&nbsp;&nbsp;&nbsp;[c14]<br>
+&nbsp;&nbsp;&nbsp;<b>Dimensiones:</b><br>
+&nbsp;&nbsp;&nbsp;[c170]<br>
+&nbsp;&nbsp;&nbsp;<b>Referencias culturales/históricas:</b><br>
+&nbsp;&nbsp;&nbsp;[c173]<br>
+&nbsp;&nbsp;&nbsp;<b>Fecha de ingreso:</b><br>
+&nbsp;&nbsp;&nbsp;[c06]<br>
+</p>
+</div>
+<ul id="Pager2" class="pager [NAB.Pager2_effect]" ng-style="NAB.Pager2_style" ng-hide="NAB.Pager2_hidden" ng-disabled="NAB.Pager2_disabled"><li ng-click="Pager2_prevclick()"><a href=""><span class="glyphicon glyphicon-arrow-left"></span></a></li><li ng-click="Pager2_nextclick()"><a href=""><span class="glyphicon glyphicon-arrow-right"></span></a></li></ul>
+<div id="Paragraph11" class="[NAB.Paragraph11_effect]" ng-style="NAB.Paragraph11_style" ng-hide="NAB.Paragraph11_hidden" ng-disabled="NAB.Paragraph11_disabled">[current] / [total]</div>
+<select id="Combobox1" ng-model="$root.DocCategoria" class="[NAB.Combobox1_effect]" ng-style="NAB.Combobox1_style" ng-hide="NAB.Combobox1_hidden" ng-disabled="NAB.Combobox1_disabled" ng-change="Combobox1_change()"><option style="display:none" value="">&nbsp;</option><option>Todas</option><option>Armas y armamentos</option><option>Mobiliario</option><option>Vestimentas</option><option>Arqueología (fósiles)</option><option>Etnografía (vasijas)</option><option>Orfebrería</option><option>Numismática y medallística</option><option>Liturgia (objetos religiosos)</option><option>Animales taxidermizados</option><option>Obras de arte</option><option>Fotografías</option><option>Agricultura</option><option>Ciencias naturales (fósiles&#44; moluscos&#44; minerales y rocas)</option><option>Otros</option></select>
+<div id="Paragraph3" class="[NAB.Paragraph3_effect]" ng-style="NAB.Paragraph3_style" ng-hide="NAB.Paragraph3_hidden" ng-disabled="NAB.Paragraph3_disabled">Categoría:</div>
+<button id="PushButton13" type="button"  class="btn btn-default [NAB.PushButton13_effect]" ng-style="NAB.PushButton13_style" ng-hide="NAB.PushButton13_hidden" ng-disabled="NAB.PushButton13_disabled" ng-click="PushButton13_click()"><span class="glyphicon glyphicon-picture"></span><br/>&nbsp;&nbsp;&nbspImágenes</button>
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+</div>
+</script>
+<script type="text/ng-template" id="Imprimir">
+<div id="Imprimir">
+<svg id="Line1" class="[NAB.Line1_effect]" ng-style="NAB.Line1_style" ng-hide="NAB.Line1_hidden" ng-disabled="NAB.Line1_disabled"><line x1="0" y1="0" x2="811" y2="0" /></svg>
+<div id="Paragraph2" class="[NAB.Paragraph2_effect]" ng-style="NAB.Paragraph2_style" ng-hide="NAB.Paragraph2_hidden" ng-disabled="NAB.Paragraph2_disabled">SIDMus</div>
+<div id="Paragraph10" class="[NAB.Paragraph10_effect]" ng-style="NAB.Paragraph10_style" ng-hide="NAB.Paragraph10_hidden" ng-disabled="NAB.Paragraph10_disabled">[NAB.DayNum] / [NAB.MonthNum]&nbsp;/ [NAB.Year]</div>
+<div id="ContenedorImpresion" class="[NAB.ContenedorImpresion_effect]" ng-style="NAB.ContenedorImpresion_style" ng-hide="NAB.ContenedorImpresion_hidden" ng-disabled="NAB.ContenedorImpresion_disabled"><p><br>
+&nbsp;&nbsp;&nbsp;<b>Museo:</b><br>
+&nbsp;&nbsp;&nbsp;[c04]<br>
+&nbsp;&nbsp;&nbsp;<b>Ubicación:</b><br>
+&nbsp;&nbsp;&nbsp;[c05]<br>
+&nbsp;&nbsp;&nbsp;<b>Nº de inventario:</b><br>
+&nbsp;&nbsp;&nbsp;[c02]<br>
+&nbsp;&nbsp;&nbsp;<b>Cateogoría/Clasificación:</b><br>
+&nbsp;&nbsp;&nbsp;[c15]<br>
+&nbsp;&nbsp;&nbsp;<b>Denominación:</b><br>
+&nbsp;&nbsp;&nbsp;[c10]<br>
+&nbsp;&nbsp;&nbsp;<b>Título:</b><br>
+&nbsp;&nbsp;&nbsp;[c11]<br>
+&nbsp;&nbsp;&nbsp;<b>Descripción:</b><br>
+&nbsp;&nbsp;&nbsp;[c14]<br>
+&nbsp;&nbsp;&nbsp;<b>Dimensiones:</b><br>
+&nbsp;&nbsp;&nbsp;[c170]<br>
+&nbsp;&nbsp;&nbsp;<b>Referencias culturales/históricas:</b><br>
+&nbsp;&nbsp;&nbsp;[c173]<br>
+&nbsp;&nbsp;&nbsp;<b>Fecha de ingreso:</b><br>
+&nbsp;&nbsp;&nbsp;[c06]<br>
+</p>
+</div>
+<svg id="Line2" class="[NAB.Line2_effect]" ng-style="NAB.Line2_style" ng-hide="NAB.Line2_hidden" ng-disabled="NAB.Line2_disabled"><line x1="0" y1="0" x2="811" y2="0" /></svg>
+<div id="Paragraph15" class="[NAB.Paragraph15_effect]" ng-style="NAB.Paragraph15_style" ng-hide="NAB.Paragraph15_hidden" ng-disabled="NAB.Paragraph15_disabled">Usuario: <strong>[sesion_usuario]</strong></div>
+</div>
+</script>
+<script type="text/ng-template" id="DocImagen">
+<div id="DocImagen">
+<div id="ContDocImagen" class="[NAB.ContDocImagen_effect]" ng-style="NAB.ContDocImagen_style" ng-hide="NAB.ContDocImagen_hidden" ng-disabled="NAB.ContDocImagen_disabled"><p><br><br>
+<img src=http://drive.google.com/uc?export=view&id=[c184img] height="400">[c185]
+<hr>
+
+<img src=http://drive.google.com/uc?export=view&id=[c186img] height="400">[c187]
+<hr>
+
+<img src=http://drive.google.com/uc?export=view&id=[c188img] height="400">[c189]
+<hr>
+
+<img src=http://drive.google.com/uc?export=view&id=[c190img] height="400">[c191]
+<hr>
+
+<img src=http://drive.google.com/uc?export=view&id=[c192img] height="400">[c193]
+<hr>
+
+<img src=http://drive.google.com/uc?export=view&id=[c194img] height="400">[c195]
+<hr>
+</div>
+<div id="Paragraph5" class="[NAB.Paragraph5_effect]" ng-style="NAB.Paragraph5_style" ng-hide="NAB.Paragraph5_hidden" ng-disabled="NAB.Paragraph5_disabled" ng-click="Paragraph5_click()">&lt;&lt;&nbsp; Atrás</div>
+<svg id="SVGicon1" viewBox="-10 -10 525 525"  class="[NAB.SVGicon1_effect]" ng-style="NAB.SVGicon1_style" ng-hide="NAB.SVGicon1_hidden" ng-disabled="NAB.SVGicon1_disabled" ng-click="SVGicon1_click()"><path d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"/></svg>
+</div>
+</script>
+<script type="text/ng-template" id="ReporteCondicion">
+<div id="ReporteCondicion">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<div id="Paragraph7" class="[NAB.Paragraph7_effect]" ng-style="NAB.Paragraph7_style" ng-hide="NAB.Paragraph7_hidden" ng-disabled="NAB.Paragraph7_disabled">Reportes de Condición</div>
+<div id="TablaCondicion" class="[NAB.TablaCondicion_effect]" ng-style="NAB.TablaCondicion_style" ng-hide="NAB.TablaCondicion_hidden" ng-disabled="NAB.TablaCondicion_disabled">
+</div>
+<div id="NuevoReporteCondicion" class="[NAB.NuevoReporteCondicion_effect]" ng-style="NAB.NuevoReporteCondicion_style" ng-hide="NAB.NuevoReporteCondicion_hidden" ng-disabled="NAB.NuevoReporteCondicion_disabled"><center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWg-wcSSGdP85Rzbs8MiRYwPwzGdhla-HBa9BbW5mglnruEg/viewform?embedded=true" width="640" height="6194" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe></center>
+</div>
+<button id="PushButton16" type="button"  class="btn btn-success [NAB.PushButton16_effect]" ng-style="NAB.PushButton16_style" ng-hide="NAB.PushButton16_hidden" ng-disabled="NAB.PushButton16_disabled" ng-click="PushButton16_click()"><span class="glyphicon glyphicon-plus"></span></button>
+</div>
+</script>
+<script type="text/ng-template" id="ActaIngreso">
+<div id="ActaIngreso">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<div id="NuevoIngreso" class="[NAB.NuevoIngreso_effect]" ng-style="NAB.NuevoIngreso_style" ng-hide="NAB.NuevoIngreso_hidden" ng-disabled="NAB.NuevoIngreso_disabled"><center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScynaw_IEumUn8FCKjv_c30H1-REWTXMVwkhS52Qtl3-UodkA/viewform?embedded=true" width="640" height="2840" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe></center>
+</div>
+<button id="PushButton18" type="button"  class="btn btn-success [NAB.PushButton18_effect]" ng-style="NAB.PushButton18_style" ng-hide="NAB.PushButton18_hidden" ng-disabled="NAB.PushButton18_disabled" ng-click="PushButton18_click()"><span class="glyphicon glyphicon-plus"></span></button>
+<div id="TablaIngreso" class="[NAB.TablaIngreso_effect]" ng-style="NAB.TablaIngreso_style" ng-hide="NAB.TablaIngreso_hidden" ng-disabled="NAB.TablaIngreso_disabled">
+</div>
+<div id="Paragraph8" class="[NAB.Paragraph8_effect]" ng-style="NAB.Paragraph8_style" ng-hide="NAB.Paragraph8_hidden" ng-disabled="NAB.Paragraph8_disabled">Actas de Ingreso</div>
+</div>
+</script>
+<script type="text/ng-template" id="ActaBaja">
+<div id="ActaBaja">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<div id="NuevoBaja" class="[NAB.NuevoBaja_effect]" ng-style="NAB.NuevoBaja_style" ng-hide="NAB.NuevoBaja_hidden" ng-disabled="NAB.NuevoBaja_disabled"><center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdl4B3R5gwkIbb6YYVfEZxT3czjOCNQWEcnNHPvDPMiv2FBBA/viewform?embedded=true" width="640" height="1545" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</center>
+</div>
+<button id="PushButton17" type="button"  class="btn btn-success [NAB.PushButton17_effect]" ng-style="NAB.PushButton17_style" ng-hide="NAB.PushButton17_hidden" ng-disabled="NAB.PushButton17_disabled" ng-click="PushButton17_click()"><span class="glyphicon glyphicon-plus"></span></button>
+<div id="TablaBaja" class="[NAB.TablaBaja_effect]" ng-style="NAB.TablaBaja_style" ng-hide="NAB.TablaBaja_hidden" ng-disabled="NAB.TablaBaja_disabled">
+</div>
+<div id="Paragraph9" class="[NAB.Paragraph9_effect]" ng-style="NAB.Paragraph9_style" ng-hide="NAB.Paragraph9_hidden" ng-disabled="NAB.Paragraph9_disabled">Actas de Bajas</div>
+</div>
+</script>
+<script type="text/ng-template" id="Museos">
+<div id="Museos">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<div id="Paragraph16" class="[NAB.Paragraph16_effect]" ng-style="NAB.Paragraph16_style" ng-hide="NAB.Paragraph16_hidden" ng-disabled="NAB.Paragraph16_disabled">Museos que integran el Proyecto SIDMus:</div>
+<div id="tablaFRM" class="[NAB.tablaFRM_effect]" ng-style="NAB.tablaFRM_style" ng-hide="NAB.tablaFRM_hidden" ng-disabled="NAB.tablaFRM_disabled">
+</div>
+<button id="PushButton8" type="button"  class="btn btn-primary [NAB.PushButton8_effect]" ng-style="NAB.PushButton8_style" ng-hide="NAB.PushButton8_hidden" ng-disabled="NAB.PushButton8_disabled" ng-click="PushButton8_click()"><span class="glyphicon glyphicon-plus"></span> &nbsp;&nbsp;Registrar nuevo Museo</button>
+<div id="ContFRM" class="[NAB.ContFRM_effect]" ng-style="NAB.ContFRM_style" ng-hide="NAB.ContFRM_hidden" ng-disabled="NAB.ContFRM_disabled"><div align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeR4dVycPYqtsyp1jjTY4hTIWq0Nwhz1K5UBWG6Ow0oFbPAkg/viewform?embedded=true" width="640" height="1702" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe></div>
+</div>
+</div>
+</script>
+<script type="text/ng-template" id="Profesionales">
+<div id="Profesionales">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+<div id="Paragraph17" class="[NAB.Paragraph17_effect]" ng-style="NAB.Paragraph17_style" ng-hide="NAB.Paragraph17_hidden" ng-disabled="NAB.Paragraph17_disabled">Profesionales que integramos el Proyecto SIDMus:</div>
+<div id="tablaFRP" class="[NAB.tablaFRP_effect]" ng-style="NAB.tablaFRP_style" ng-hide="NAB.tablaFRP_hidden" ng-disabled="NAB.tablaFRP_disabled">
+</div>
+<button id="PushButton19" type="button"  class="btn btn-primary [NAB.PushButton19_effect]" ng-style="NAB.PushButton19_style" ng-hide="NAB.PushButton19_hidden" ng-disabled="NAB.PushButton19_disabled" ng-click="PushButton19_click()"><span class="glyphicon glyphicon-plus"></span> &nbsp;&nbsp;Registrarme</button>
+<div id="ContFRP" class="[NAB.ContFRP_effect]" ng-style="NAB.ContFRP_style" ng-hide="NAB.ContFRP_hidden" ng-disabled="NAB.ContFRP_disabled"><div align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduQJCc-y-pRNT6Q5H7E9DlN-N_jisXT0LdHbNkukhDAW5gVA/viewform?embedded=true" width="640" height="1385" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe></div>
+</div>
+</div>
+</script>
+<script type="text/ng-template" id="Documentos">
+<div id="Documentos">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+</div>
+</script>
+<script type="text/ng-template" id="Contacto">
+<div id="Contacto">
+<div id="baner" class="[NAB.baner_effect]" ng-style="NAB.baner_style" ng-hide="NAB.baner_hidden" ng-disabled="NAB.baner_disabled"><h4 align="left">&nbsp&nbsp&nbspSistema Integrado de Documentación para Museos Universitarios</h4>
+</div>
+<div id="menu" class="[NAB.menu_effect]" ng-style="NAB.menu_style" ng-hide="NAB.menu_hidden" ng-disabled="NAB.menu_disabled"><br><center><div align="right"><img src="img\fcg.png" width="130" height="130">&nbsp&nbsp&nbsp&nbsp</div></center><hr><br><br>
+</div>
+<div id="pie" class="[NAB.pie_effect]" ng-style="NAB.pie_style" ng-hide="NAB.pie_hidden" ng-disabled="NAB.pie_disabled"><br><div align="center">© 2022 IoSoft Producciones.<br>
+Sitio Oficial: <a target="_blank" href="https://iosoft.ml"><font size="3">www.iosoft.ml</font></a></div><br>
+</div>
+<div id="Container1" class="[NAB.Container1_effect]" ng-style="NAB.Container1_style" ng-hide="NAB.Container1_hidden" ng-disabled="NAB.Container1_disabled"><br><div>&nbsp&nbsp&nbsp&nbsp<img src="img\logo.png" width="334" height="110"></div>
+</div>
+<button id="PushButton1" type="button"  class="btn btn-default btn-lg [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()"><span class="glyphicon glyphicon-search"></span> &nbsp&nbspCatálogo</button>
+<button id="PushButton2" type="button"  class="btn btn-default btn-lg [NAB.PushButton2_effect]" ng-style="NAB.PushButton2_style" ng-hide="NAB.PushButton2_hidden" ng-disabled="NAB.PushButton2_disabled" ng-click="PushButton2_click()"><span class="glyphicon glyphicon-list-alt"></span> &nbsp&nbspDocumentar</button>
+<button id="PushButton4" type="button"  class="btn btn-default btn-lg [NAB.PushButton4_effect]" ng-style="NAB.PushButton4_style" ng-hide="NAB.PushButton4_hidden" ng-disabled="NAB.PushButton4_disabled" ng-click="PushButton4_click()"><span class="glyphicon glyphicon-home"></span> &nbsp&nbspMuseos</button>
+<button id="PushButton3" type="button"  class="btn btn-default btn-lg [NAB.PushButton3_effect]" ng-style="NAB.PushButton3_style" ng-hide="NAB.PushButton3_hidden" ng-disabled="NAB.PushButton3_disabled" ng-click="PushButton3_click()"><span class="glyphicon glyphicon-user"></span> &nbsp&nbspProfesionales</button>
+<button id="PushButton6" type="button"  class="btn btn-default btn-lg [NAB.PushButton6_effect]" ng-style="NAB.PushButton6_style" ng-hide="NAB.PushButton6_hidden" ng-disabled="NAB.PushButton6_disabled" ng-click="PushButton6_click()"><span class="glyphicon glyphicon-book"></span> &nbsp&nbspDocumentos</button>
+<button id="PushButton5" type="button"  class="btn btn-default btn-lg [NAB.PushButton5_effect]" ng-style="NAB.PushButton5_style" ng-hide="NAB.PushButton5_hidden" ng-disabled="NAB.PushButton5_disabled" ng-click="PushButton5_click()"><span class="glyphicon glyphicon-envelope"></span> &nbsp&nbspContacto</button>
+</div>
+</script>
+<script type="text/ng-template" id="MasterPage">
+<div id="DialogContainer1" class="modal-dialog modal-sm"><div class="modal-content" style="height:100%">
+</div></div>
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-touch.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/neoapp.min.js"></script>
+<script src="js/neoapp-ui.min.js"></script>
+<script src="js/sheetrock.min.js"></script>
+<script src="js/bootstrap-table.min.js"></script>
+<script src="js/bootstrap-table-locale-all.min.js"></script>
+<script src="js/bootstrap-table-editable.min.js"></script>
+<script src="js/bootstrap-table-export.min.js"></script>
+<script src="js/bootstrap-editable.min.js"></script>
+<script src="js/tableExport.min.js"></script>
+<script src="js/bootstrap-datepicker.es.min.js"></script>
+<script src="js/bootstrap-datepicker.de.min.js"></script>
+<script src="js/bootstrap-datepicker.fr.min.js"></script>
+<script src="js/bootstrap-datepicker.it.min.js"></script>
+<script src="js/bootstrap-datepicker.pt.min.js"></script>
+<script src="js/bootstrap-datepicker.ru.min.js"></script>
+<script src="js/bootstrap-datepicker.ja.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
